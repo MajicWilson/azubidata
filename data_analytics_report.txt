@@ -1,0 +1,23 @@
+### Data Analytics Pathway Assessment: Summary Report
+
+#### Objective:
+Predict client subscription to term deposits using operational data.
+
+#### Key Findings:
+1. Dataset is highly imbalanced (88.73% "No", 11.27% "Yes").
+2. Features like `duration` and `poutcome` significantly impact predictions.
+
+#### Approach:
+1. Conducted EDA, removed redundant features, and handled class imbalance.
+2. Preprocessed data with scaling and one-hot encoding.
+3. Built and evaluated a Random Forest model.
+
+#### Results (After Threshold Adjustment):
+- Precision (Class 1): 56%
+- Recall (Class 1): 77%
+- F1 Score (Class 1): 65%
+- ROC-AUC: 0.85
+
+#### Recommendations:
+1. Prioritize clients with high call durations and positive campaign outcomes.
+2. Improve campaign targeting to enhance subscription rates.
